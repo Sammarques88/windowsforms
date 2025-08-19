@@ -1,0 +1,10 @@
+C:\Users\samuel.mlucio\source\repos\alertas\bin\Debug\alertas.exe.config
+C:\Users\samuel.mlucio\source\repos\alertas\bin\Debug\alertas.exe
+C:\Users\samuel.mlucio\source\repos\alertas\bin\Debug\alertas.pdb
+C:\Users\samuel.mlucio\source\repos\alertas\obj\Debug\alertas.csproj.AssemblyReference.cache
+C:\Users\samuel.mlucio\source\repos\alertas\obj\Debug\alertas.Alertas.resources
+C:\Users\samuel.mlucio\source\repos\alertas\obj\Debug\alertas.Properties.Resources.resources
+C:\Users\samuel.mlucio\source\repos\alertas\obj\Debug\alertas.csproj.GenerateResource.cache
+C:\Users\samuel.mlucio\source\repos\alertas\obj\Debug\alertas.csproj.CoreCompileInputs.cache
+C:\Users\samuel.mlucio\source\repos\alertas\obj\Debug\alertas.exe
+C:\Users\samuel.mlucio\source\repos\alertas\obj\Debug\alertas.pdb
