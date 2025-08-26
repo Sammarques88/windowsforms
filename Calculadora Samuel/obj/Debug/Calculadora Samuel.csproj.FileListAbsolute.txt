@@ -1,0 +1,10 @@
+C:\Users\samuel.mlucio\source\repos\Calculadora Samuel\bin\Debug\Calculadora Samuel.exe.config
+C:\Users\samuel.mlucio\source\repos\Calculadora Samuel\bin\Debug\Calculadora Samuel.exe
+C:\Users\samuel.mlucio\source\repos\Calculadora Samuel\bin\Debug\Calculadora Samuel.pdb
+C:\Users\samuel.mlucio\source\repos\Calculadora Samuel\obj\Debug\Calculadora Samuel.csproj.AssemblyReference.cache
+C:\Users\samuel.mlucio\source\repos\Calculadora Samuel\obj\Debug\Calculadora_Samuel.Form1.resources
+C:\Users\samuel.mlucio\source\repos\Calculadora Samuel\obj\Debug\Calculadora_Samuel.Properties.Resources.resources
+C:\Users\samuel.mlucio\source\repos\Calculadora Samuel\obj\Debug\Calculadora Samuel.csproj.GenerateResource.cache
+C:\Users\samuel.mlucio\source\repos\Calculadora Samuel\obj\Debug\Calculadora Samuel.csproj.CoreCompileInputs.cache
+C:\Users\samuel.mlucio\source\repos\Calculadora Samuel\obj\Debug\Calculadora Samuel.exe
+C:\Users\samuel.mlucio\source\repos\Calculadora Samuel\obj\Debug\Calculadora Samuel.pdb
