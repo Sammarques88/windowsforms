@@ -14,7 +14,7 @@ namespace calculadorasamuel3
     public partial class Form1 : Form
     {
 
-        public decimal Resultado {  get; set; }
+        public decimal Resultado { get; set; }
 
         public decimal Valor { get; set; }
 
@@ -92,7 +92,7 @@ namespace calculadorasamuel3
             OperacaoSelecionada = Operacao.Adicao;
             Valor = Convert.ToDecimal(txtResultado.Text);
             txtResultado.Text = "";
-            
+
         }
 
         private void btnSubtrair_Click(object sender, EventArgs e)
@@ -132,7 +132,7 @@ namespace calculadorasamuel3
                 case Operacao.Divisao:
                     Resultado = Valor / Convert.ToDecimal(txtResultado.Text);
                     break;
-                
+
             }
             txtResultado.Text = Convert.ToString(Resultado);
         }
@@ -140,6 +140,29 @@ namespace calculadorasamuel3
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             txtResultado.Text = "";
+        }
+
+        private void btnPonto_Click(object sender, EventArgs e)
+        {
+
+            // Só adiciona a vírgula se ainda não tiver uma no número atual
+            if (!txtResultado.Text.Contains(","))
+            {
+                if (string.IsNullOrEmpty(txtResultado.Text))
+                {
+                    // Se o campo estiver vazio e o usuário clicar no ponto, começa com "0,"
+                    txtResultado.Text = "0,";
+                }
+                else
+                {
+                    txtResultado.Text += ",";
+
+                }
+            }
+
+            // Garante que o cursor fique sempre no final
+            txtResultado.SelectionStart = txtResultado.Text.Length;
+            txtResultado.SelectionLength = 0;
         }
     }
 }
