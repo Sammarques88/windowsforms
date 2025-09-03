@@ -2,7 +2,6 @@ C:\Users\samuel.mlucio\source\repos\crud\bin\Debug\crud.exe.config
 C:\Users\samuel.mlucio\source\repos\crud\bin\Debug\crud.exe
 C:\Users\samuel.mlucio\source\repos\crud\bin\Debug\crud.pdb
 C:\Users\samuel.mlucio\source\repos\crud\obj\Debug\crud.csproj.AssemblyReference.cache
-C:\Users\samuel.mlucio\source\repos\crud\obj\Debug\crud.Form1.resources
 C:\Users\samuel.mlucio\source\repos\crud\obj\Debug\crud.Properties.Resources.resources
 C:\Users\samuel.mlucio\source\repos\crud\obj\Debug\crud.csproj.GenerateResource.cache
 C:\Users\samuel.mlucio\source\repos\crud\obj\Debug\crud.csproj.CoreCompileInputs.cache
@@ -41,3 +40,4 @@ C:\Users\samuel.mlucio\source\repos\crud\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\samuel.mlucio\source\repos\crud\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\samuel.mlucio\source\repos\crud\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\samuel.mlucio\source\repos\crud\obj\Debug\crud.csproj.Up2Date
+C:\Users\samuel.mlucio\source\repos\crud\obj\Debug\crud.frmCadastroDeCliente.resources

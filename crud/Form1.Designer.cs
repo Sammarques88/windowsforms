@@ -33,14 +33,14 @@
             this.tbControl = new System.Windows.Forms.TabControl();
             this.tbConsult = new System.Windows.Forms.TabPage();
             this.tbCadastro = new System.Windows.Forms.TabPage();
-            this.txtNomeCompleto = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.lblNome = new System.Windows.Forms.Label();
-            this.lblNomeSocial = new System.Windows.Forms.Label();
-            this.lblEmail = new System.Windows.Forms.Label();
-            this.lblCpf = new System.Windows.Forms.Label();
             this.txtCpf = new System.Windows.Forms.MaskedTextBox();
+            this.lblCpf = new System.Windows.Forms.Label();
+            this.lblEmail = new System.Windows.Forms.Label();
+            this.lblNomeSocial = new System.Windows.Forms.Label();
+            this.lblNome = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtNomeSocial = new System.Windows.Forms.TextBox();
+            this.txtNomeCompleto = new System.Windows.Forms.TextBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.panelTopo.SuspendLayout();
             this.tbControl.SuspendLayout();
@@ -96,7 +96,7 @@
             this.tbCadastro.Controls.Add(this.lblNomeSocial);
             this.tbCadastro.Controls.Add(this.lblNome);
             this.tbCadastro.Controls.Add(this.txtEmail);
-            this.tbCadastro.Controls.Add(this.textBox2);
+            this.tbCadastro.Controls.Add(this.txtNomeSocial);
             this.tbCadastro.Controls.Add(this.txtNomeCompleto);
             this.tbCadastro.Location = new System.Drawing.Point(4, 22);
             this.tbCadastro.Name = "tbCadastro";
@@ -106,59 +106,13 @@
             this.tbCadastro.Text = "Dados de Clientes";
             this.tbCadastro.UseVisualStyleBackColor = true;
             // 
-            // txtNomeCompleto
+            // txtCpf
             // 
-            this.txtNomeCompleto.Location = new System.Drawing.Point(205, 40);
-            this.txtNomeCompleto.Name = "txtNomeCompleto";
-            this.txtNomeCompleto.Size = new System.Drawing.Size(327, 20);
-            this.txtNomeCompleto.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(205, 81);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(327, 20);
-            this.textBox2.TabIndex = 1;
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(205, 122);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(327, 20);
-            this.txtEmail.TabIndex = 2;
-            // 
-            // lblNome
-            // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.ForeColor = System.Drawing.Color.Firebrick;
-            this.lblNome.Location = new System.Drawing.Point(39, 40);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(123, 20);
-            this.lblNome.TabIndex = 4;
-            this.lblNome.Text = "Nome Completo";
-            // 
-            // lblNomeSocial
-            // 
-            this.lblNomeSocial.AutoSize = true;
-            this.lblNomeSocial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeSocial.ForeColor = System.Drawing.Color.Firebrick;
-            this.lblNomeSocial.Location = new System.Drawing.Point(42, 81);
-            this.lblNomeSocial.Name = "lblNomeSocial";
-            this.lblNomeSocial.Size = new System.Drawing.Size(98, 20);
-            this.lblNomeSocial.TabIndex = 5;
-            this.lblNomeSocial.Text = "Nome Social";
-            // 
-            // lblEmail
-            // 
-            this.lblEmail.AutoSize = true;
-            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEmail.ForeColor = System.Drawing.Color.Firebrick;
-            this.lblEmail.Location = new System.Drawing.Point(42, 122);
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(53, 20);
-            this.lblEmail.TabIndex = 6;
-            this.lblEmail.Text = "E-Mail";
+            this.txtCpf.Location = new System.Drawing.Point(205, 165);
+            this.txtCpf.Mask = "###,###,###-##";
+            this.txtCpf.Name = "txtCpf";
+            this.txtCpf.Size = new System.Drawing.Size(327, 20);
+            this.txtCpf.TabIndex = 8;
             // 
             // lblCpf
             // 
@@ -171,13 +125,59 @@
             this.lblCpf.TabIndex = 7;
             this.lblCpf.Text = "CPF";
             // 
-            // txtCpf
+            // lblEmail
             // 
-            this.txtCpf.Location = new System.Drawing.Point(205, 165);
-            this.txtCpf.Mask = "###,###,###-##";
-            this.txtCpf.Name = "txtCpf";
-            this.txtCpf.Size = new System.Drawing.Size(327, 20);
-            this.txtCpf.TabIndex = 8;
+            this.lblEmail.AutoSize = true;
+            this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmail.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblEmail.Location = new System.Drawing.Point(42, 122);
+            this.lblEmail.Name = "lblEmail";
+            this.lblEmail.Size = new System.Drawing.Size(53, 20);
+            this.lblEmail.TabIndex = 6;
+            this.lblEmail.Text = "E-Mail";
+            // 
+            // lblNomeSocial
+            // 
+            this.lblNomeSocial.AutoSize = true;
+            this.lblNomeSocial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeSocial.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblNomeSocial.Location = new System.Drawing.Point(42, 81);
+            this.lblNomeSocial.Name = "lblNomeSocial";
+            this.lblNomeSocial.Size = new System.Drawing.Size(98, 20);
+            this.lblNomeSocial.TabIndex = 5;
+            this.lblNomeSocial.Text = "Nome Social";
+            // 
+            // lblNome
+            // 
+            this.lblNome.AutoSize = true;
+            this.lblNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNome.ForeColor = System.Drawing.Color.Firebrick;
+            this.lblNome.Location = new System.Drawing.Point(39, 40);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(123, 20);
+            this.lblNome.TabIndex = 4;
+            this.lblNome.Text = "Nome Completo";
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(205, 122);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(327, 20);
+            this.txtEmail.TabIndex = 2;
+            // 
+            // txtNomeSocial
+            // 
+            this.txtNomeSocial.Location = new System.Drawing.Point(205, 81);
+            this.txtNomeSocial.Name = "txtNomeSocial";
+            this.txtNomeSocial.Size = new System.Drawing.Size(327, 20);
+            this.txtNomeSocial.TabIndex = 1;
+            // 
+            // txtNomeCompleto
+            // 
+            this.txtNomeCompleto.Location = new System.Drawing.Point(205, 40);
+            this.txtNomeCompleto.Name = "txtNomeCompleto";
+            this.txtNomeCompleto.Size = new System.Drawing.Size(327, 20);
+            this.txtNomeCompleto.TabIndex = 0;
             // 
             // btnSalvar
             // 
@@ -220,7 +220,7 @@
         private System.Windows.Forms.TabPage tbCadastro;
         private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.TextBox txtEmail;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtNomeSocial;
         private System.Windows.Forms.TextBox txtNomeCompleto;
         private System.Windows.Forms.Label lblCpf;
         private System.Windows.Forms.Label lblEmail;

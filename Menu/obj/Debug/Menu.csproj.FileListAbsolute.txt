@@ -1,0 +1,12 @@
+C:\Users\samuel.mlucio\source\repos\Menu\bin\Debug\Menu.exe.config
+C:\Users\samuel.mlucio\source\repos\Menu\bin\Debug\Menu.exe
+C:\Users\samuel.mlucio\source\repos\Menu\bin\Debug\Menu.pdb
+C:\Users\samuel.mlucio\source\repos\Menu\obj\Debug\Menu.csproj.AssemblyReference.cache
+C:\Users\samuel.mlucio\source\repos\Menu\obj\Debug\Menu.Form1.resources
+C:\Users\samuel.mlucio\source\repos\Menu\obj\Debug\Menu.F_CheckBox.resources
+C:\Users\samuel.mlucio\source\repos\Menu\obj\Debug\Menu.Properties.Resources.resources
+C:\Users\samuel.mlucio\source\repos\Menu\obj\Debug\Menu.csproj.GenerateResource.cache
+C:\Users\samuel.mlucio\source\repos\Menu\obj\Debug\Menu.csproj.CoreCompileInputs.cache
+C:\Users\samuel.mlucio\source\repos\Menu\obj\Debug\Menu.exe
+C:\Users\samuel.mlucio\source\repos\Menu\obj\Debug\Menu.pdb
+C:\Users\samuel.mlucio\source\repos\Menu\obj\Debug\Menu.F_CheckedListBox.resources
