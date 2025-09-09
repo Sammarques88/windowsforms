@@ -42,8 +42,12 @@
             this.txtNomeSocial = new System.Windows.Forms.TextBox();
             this.txtNomeCompleto = new System.Windows.Forms.TextBox();
             this.btnSalvar = new System.Windows.Forms.Button();
+            this.txtBuscar = new System.Windows.Forms.TextBox();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.lstCliente = new System.Windows.Forms.ListView();
             this.panelTopo.SuspendLayout();
             this.tbControl.SuspendLayout();
+            this.tbConsult.SuspendLayout();
             this.tbCadastro.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,6 +84,9 @@
             // 
             // tbConsult
             // 
+            this.tbConsult.Controls.Add(this.lstCliente);
+            this.tbConsult.Controls.Add(this.btnPesquisar);
+            this.tbConsult.Controls.Add(this.txtBuscar);
             this.tbConsult.Location = new System.Drawing.Point(4, 22);
             this.tbConsult.Name = "tbConsult";
             this.tbConsult.Padding = new System.Windows.Forms.Padding(3);
@@ -192,6 +199,35 @@
             this.btnSalvar.UseVisualStyleBackColor = false;
             this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
+            // txtBuscar
+            // 
+            this.txtBuscar.Location = new System.Drawing.Point(21, 17);
+            this.txtBuscar.Name = "txtBuscar";
+            this.txtBuscar.Size = new System.Drawing.Size(237, 20);
+            this.txtBuscar.TabIndex = 0;
+            // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.BackColor = System.Drawing.Color.DarkMagenta;
+            this.btnPesquisar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPesquisar.ForeColor = System.Drawing.Color.White;
+            this.btnPesquisar.Location = new System.Drawing.Point(281, 17);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(125, 45);
+            this.btnPesquisar.TabIndex = 1;
+            this.btnPesquisar.Text = "Pesquisar";
+            this.btnPesquisar.UseVisualStyleBackColor = false;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
+            // 
+            // lstCliente
+            // 
+            this.lstCliente.HideSelection = false;
+            this.lstCliente.Location = new System.Drawing.Point(21, 82);
+            this.lstCliente.Name = "lstCliente";
+            this.lstCliente.Size = new System.Drawing.Size(591, 141);
+            this.lstCliente.TabIndex = 2;
+            this.lstCliente.UseCompatibleStateImageBehavior = false;
+            // 
             // frmCadastroDeCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -205,6 +241,8 @@
             this.panelTopo.ResumeLayout(false);
             this.panelTopo.PerformLayout();
             this.tbControl.ResumeLayout(false);
+            this.tbConsult.ResumeLayout(false);
+            this.tbConsult.PerformLayout();
             this.tbCadastro.ResumeLayout(false);
             this.tbCadastro.PerformLayout();
             this.ResumeLayout(false);
@@ -227,6 +265,9 @@
         private System.Windows.Forms.Label lblNomeSocial;
         private System.Windows.Forms.MaskedTextBox txtCpf;
         private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.ListView lstCliente;
+        private System.Windows.Forms.Button btnPesquisar;
+        private System.Windows.Forms.TextBox txtBuscar;
     }
 }
 
